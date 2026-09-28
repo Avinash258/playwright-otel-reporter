@@ -1,0 +1,21 @@
+{
+  "name": "playwright-otel-reporter",
+  "version": "0.1.0",
+  "description": "Playwright custom reporter that emits OpenTelemetry-style spans for tests",
+  "main": "src/reporter.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "author": "Avinash Sharma",
+  "keywords": ["playwright", "opentelemetry", "otel", "reporter", "qa", "observability"],
+  "files": ["src", "LICENSE", "README.md"],
+  "peerDependencies": {
+    "@playwright/test": ">=1.40.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  },
+  "scripts": {
+    "test": "npm --prefix example test",
+    "example": "npm --prefix example test"
+  }
+}
